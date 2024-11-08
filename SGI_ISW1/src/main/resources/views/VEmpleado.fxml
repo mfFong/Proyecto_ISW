@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1225.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CEmpleado">
+   <children>
+      <Pane fx:id="JPnl_Information" layoutY="100.0" prefHeight="602.0" prefWidth="225.0">
+         <children>
+            <Button fx:id="Btn_Clientes" layoutX="13.0" layoutY="23.0" minHeight="30.0" minWidth="200.0" mnemonicParsing="false" text="Clientes">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_Proveedores" layoutX="13.0" layoutY="82.0" minHeight="30.0" minWidth="200.0" mnemonicParsing="false" text="Proveedores">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_Empleados" layoutX="13.0" layoutY="142.0" minHeight="30.0" minWidth="200.0" mnemonicParsing="false" text="Empleados">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_Productos" layoutX="13.0" layoutY="201.0" minHeight="30.0" minWidth="200.0" mnemonicParsing="false" text="Productos">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_Almacen" layoutX="13.0" layoutY="261.0" minHeight="30.0" minWidth="200.0" mnemonicParsing="false" text="Almacen">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_Devouciones" layoutX="13.0" layoutY="321.0" minHeight="30.0" minWidth="200.0" mnemonicParsing="false" text="Devoluciones">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_Compras" layoutX="13.0" layoutY="381.0" minHeight="30.0" minWidth="200.0" mnemonicParsing="false" text="Compras">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_Ventas" layoutX="13.0" layoutY="441.0" minHeight="30.0" minWidth="200.0" mnemonicParsing="false" text="Ventas">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_Gerencia" layoutX="13.0" layoutY="501.0" minHeight="30.0" minWidth="200.0" mnemonicParsing="false" text="Gerencia">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_Salir" layoutX="13.0" layoutY="550.0" minHeight="30.0" minWidth="200.0" mnemonicParsing="false" text="Salir">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane fx:id="JPnl_Menu" layoutX="-15.0" minHeight="100.0" minWidth="1225.0" prefHeight="100.0" prefWidth="1225.0" />
+      <Pane layoutX="225.0" layoutY="103.0" prefHeight="595.0" prefWidth="999.0">
+         <children>
+            <TableView prefHeight="155.0" prefWidth="999.0">
+              <columns>
+                <TableColumn prefWidth="50.0" text="Id" />
+                <TableColumn prefWidth="125.0" text="Nombre" />
+                  <TableColumn prefWidth="125.0" text="Primer Apellido" />
+                  <TableColumn prefWidth="125.0" text="Segundo Apellido" />
+                  <TableColumn prefWidth="130.0" text="Correo" />
+                  <TableColumn prefWidth="130.0" text="RFC" />
+                  <TableColumn prefWidth="95.0" text="Teléfono" />
+                  <TableColumn prefWidth="95.0" text="Cargo" />
+                  <TableColumn prefWidth="115.0" text="Permisos" />
+              </columns>
+            </TableView>
+            <TableView layoutY="155.0" prefHeight="155.0" prefWidth="999.0">
+               <columns>
+                  <TableColumn prefWidth="50.0" text="Id" />
+                  <TableColumn prefWidth="125.0" text="Calle" />
+                  <TableColumn prefWidth="125.0" text="Número Exterior" />
+                  <TableColumn prefWidth="125.0" text="Número Interior" />
+                  <TableColumn prefWidth="130.0" text="CP" />
+                  <TableColumn prefWidth="130.0" text="Acaldía/Municipio" />
+                  <TableColumn prefWidth="152.00006103515625" text="Colonia/Asentamiento" />
+                  <TableColumn prefWidth="158.0" text="Estado" />
+               </columns>
+            </TableView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
